@@ -1,5 +1,26 @@
 body {
-  background-image: url(images/bg-pattern-top.svg);
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.card {
+  margin: 225px 0 225px 0;
+}
+
+.top-card {
+  background: url(images/bg-pattern-card.svg);
+  height: 100px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.profile-image {
+  background: url(images/image-victor.jpg) no-repeat;
+  border-radius: 50%;
+  height: 100px;
+  width: 50%;
+  margin: 0 290px;
 }
 
 .attribution {
