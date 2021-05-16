@@ -46,11 +46,16 @@ hr {
   grid-area: stats;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: 35px;
+  row-gap: 0px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+  font-family: sans-serif;
 }
-
+.stats-text {
+  opacity: 60%;
+  font-size: 12px;
+}
 .twenty-six {
   color: gray;
 }
