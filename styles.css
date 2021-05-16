@@ -6,7 +6,6 @@ body {
 }
 
 hr {
-  /* background-color: aqua; */
   color: hsl(0, 0%, 59%);
   opacity: 50%;
 }
@@ -15,12 +14,6 @@ hr {
   position: absolute;
   bottom: 12rem;
   right: 42rem;
-}
-
-.bottom-img {
-  position: absolute;
-  top: 28rem;
-  z-index: -1;
 }
 
 .card {
@@ -57,6 +50,10 @@ hr {
   font-size: 14px;
   font-weight: 100;
 }
+.twenty-six {
+  color: gray;
+}
+
 .stats {
   grid-area: stats;
   display: grid;
@@ -71,9 +68,13 @@ hr {
   opacity: 60%;
   font-size: 12px;
 }
-.twenty-six {
-  color: gray;
+
+.bottom-img {
+  position: absolute;
+  top: 28rem;
+  z-index: -1;
 }
+
 .attribution {
   font-size: 11px;
   text-align: center;
